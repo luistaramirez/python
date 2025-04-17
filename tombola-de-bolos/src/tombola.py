@@ -14,7 +14,7 @@ from analisis_estadisticas import (
     estadisticas_por_posicion_r
 )
 
-EXCEL_FILE = "numeros_generados.xlsx"
+EXCEL_FILE = Ruta.EXCEL_FILE
 COLORS = {
     "background": "#4CAF50",
     "button": "#FF9800",

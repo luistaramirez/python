@@ -6,6 +6,7 @@ class Ruta:
     """
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Directorio base del proyecto
     DATA_DIR = os.path.join(BASE_DIR, "data")  # Directorio 'data'
+    EXCEL_FILE = "numeros_generados.xlsx"   # Nombre del archivo Excel
 
     @staticmethod
     def obtener_ruta_excel(nombre_archivo):

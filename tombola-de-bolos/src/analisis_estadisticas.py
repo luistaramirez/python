@@ -4,7 +4,7 @@ import random
 from collections import Counter
 from ruta import Ruta
 
-EXCEL_FILE = "numeros_generados.xlsx"
+EXCEL_FILE = Ruta.EXCEL_FILE
 
 def predecir_en_base_a_excel():
     archivo = Ruta.obtener_ruta_excel(EXCEL_FILE)
